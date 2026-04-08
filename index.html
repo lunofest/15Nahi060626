@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Nahi - Mis XV Años" />
+    <meta property="og:description"
+        content="¡La cuenta regresiva ha comenzado! Descubre los detalles y confirma tu asistencia." />
+
+    <meta property="og:image" content="https://lunofest.github.io/15Nahi060626/assets/imagenes/miniatura.png" />
+    <meta property="og:url" content="https://lunofest.github.io/15Nahi060626/" />
+    <meta property="og:type" content="website" />
+
+    <meta property="og:image:type" content="image/png" />
+
+    <meta http-equiv="Cache-Control" content="no-store">
+    <meta http-equiv="Cache-Control" content="no-cache, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Cache-Control" content="s-maxage=3600">
+    <meta http-equiv="Cache-Control" content="max-age=3600">
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/styles.css?v35">
+    <link rel="stylesheet" href="css/normalize.css?v35">
+
+    <script src="cache.js"></script>
+    <script src="main.js"></script>
+    <title>Mis 15 años</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__container">
+
+            <div class="logo">
+                <span class="logo__bg">NP</span>
+                <span class="logo__text">Nahiara</span>
+            </div>
+
+            <div class="player">
+                <h5 class="player__titulo">Toca play para escuchar la música</h5>
+                <audio class="player__audio" src="assets/musica.mp3"></audio>
+
+                <div class="player__progress">
+                    <div class="player__progress-bar"></div>
+                </div>
+                <div class="player__controls">
+                    <button class="player__btn player__btn--back"></button>
+
+                    <button class="player__btn player__btn--play"></button>
+
+                    <button class="player__btn player__btn--forward"></button>
+                </div>
+
+            </div>
+
+            <div class="header__imagen">
+                <img class="header__picture" src="assets/vectores/header__vector.svg" alt="">
+            </div>
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <video src="assets/video.mp4" class="video" playsinline autoplay loop muted></video>
+
+
+        <section>
+            <img src="assets/imagenes/foto1.webp" alt="" class="img_uno">
+        </section>
+
+        <section class="frase">
+            <h4 class="frase__text">"Hay historias y personas que no voy a olvidar y recuerdos como este que siempre voy
+                a guardar. <br> Porque son parte de mi vida es mi deseo que compartan conmigo en este día tan especial."
+            </h4>
+        </section>
+
+
+        <section class="date">
+            <div class="date__line"></div>
+
+            <div class="date__content">
+                <span class="date__side">SÁBADO</span>
+
+                <div class="date__center">
+                    <span class="date__number">6</span>
+                    <span class="date__month">Junio</span>
+                </div>
+
+                <span class="date__side">2026</span>
+            </div>
+
+            <div class="date__line"></div>
+        </section>
+
+        <section class="temporizador">
+            <div class="faltan-text">Faltan</div>
+
+            <div class="timer-bar">
+                <div class="time-unit">
+                    <span class="time-value" id="days">0</span>
+                    <span class="time-label">días</span>
+                </div>
+
+
+                <div class="time-unit">
+                    <span class="time-value" id="hours">0</span>
+                    <span class="time-label">horas</span>
+                </div>
+
+
+                <div class="time-unit">
+                    <span class="time-value" id="minutes">0</span>
+                    <span class="time-label">min</span>
+                </div>
+
+
+                <div class="time-unit">
+                    <span class="time-value" id="seconds">0</span>
+                    <span class="time-label">seg</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="donde">
+            <h3 class="dresscode__title">Misa</h3>
+
+            <img src="assets/vectores/fiesta.svg" alt="" class="section__icon">
+            <p class="section__parrafo">Acompañame en la misa de acción de gracias por mis 15 años el día 19 de Abril del 2026 a las 20:30hs en Parroquia María Reina, Cristo Rey 101, el Manantial</p>
+
+            <a href="https://maps.app.goo.gl/uJaffFoP9cqPZrPB6" class="section__button">Ver ubicación</a>
+
+        </section>
+
+        <section class="donde">
+            <h3 class="dresscode__title">Fiesta</h3>
+
+            <img src="assets/vectores/fiesta.svg" alt="" class="section__icon">
+            <p class="section__parrafo">Te espero para celebrar juntos, el día 6 de Junio del 2026 a las 21:30hs en Salón Catalina, Av.
+                Gobernador del Campo y Av. Camino del Perú, Manantial</p>
+
+            <a href="https://maps.app.goo.gl/YCgG9wupBgkFAk1f7" class="section__button">Ver ubicación</a>
+
+        </section>
+
+        <section class="dresscode">
+            <h3 class="dresscode__title">Dresscode <br> <span>Elegante</span></h3>
+
+            <img src="assets/vectores/dresscode.svg" alt="" class="section__icon">
+            <p class="section__parrafo">Se reserva el color dorado, rosa, champagne, rojo y bordó, para la quinceañera
+            </p>
+
+            <button class="section__button btn-ejemplo">Ver ejemplo</button>
+
+        </section>
+
+        <section class="playlist">
+            <h3 class="dresscode__title">Playlist</h3>
+
+            <img src="assets/vectores/musica.svg" alt="" class="section__icon">
+            <p class="section__parrafo">¿Qué música crees que no debería faltar? <br> Ayúdame a
+                elegir...</p>
+
+            <div class="playlist__content">
+                <div class="playlist__input">
+                    <label class="playlist__label" for="playlist__name">Escribe tu nombre</label>
+                    <input class="playlist__inputs" type="text" id="playlist__name" placeholder="escribe tu nombre">
+                </div>
+                <div class="playlist__input playlist__input--active">
+                    <label class="playlist__label" for="playlist__musica">Escribe tu musica recomendada</label>
+                    <input class="playlist__inputs" type="text" id="playlist__musica" placeholder="escribe tu musica">
+                </div>
+            </div>
+
+            <button class="section__button">Enviar recomendación</button>
+
+        </section>
+
+        <section class="regalos contenedor block glow">
+
+            <h3 class="dresscode__title">Regalos</h3>
+
+            <img class="section__icon" src="assets/vectores/regalos.svg" alt="">
+
+            <p class="parrafo parrafo--regalos">
+                "Quiero que sepas que tu presencia es lo más importante en mi fiesta y si deseas hacerme un
+                presente, podrás hacerlo por transferencia a mi
+                cuenta...
+                y recuerda: <br> ¡Tu cariño es el mejor regalo que puedo recibir!"
+            </p>
+
+            <button id="mostrarBoton" class="section__button">Ver datos bancarios</button>
+            <div id="textoDesplegable" class="escondido regalos__data">
+                <div class="lineRegalos"></div>
+
+                <h6 class="regalo__date">Alias:</h6>
+                <p class="name__alias" id="alias">mianahiara14</p>
+                <button class="alias__button" onclick="copyText()">
+                    <img class="copiar__icon" src="assets/vectores/copiar.svg" alt="">
+                    Copiar Alias</button>
+                <div class="copy-message" id="copyMessage">¡Copiado!</div>
+
+
+                <div class="lineRegalos"></div>
+
+
+            </div>
+
+
+        </section>
+
+        <section style="display: none;" class="album contenedor block glow" data-aos="flip-left">
+
+            <div class="album__container" id="albumDigital">
+                <h3 class="title title--album">Mi álbum compartido</h3>
+                <img class="section__icon" src="assets/vectores/album.svg" id="album" alt="">
+                <h3 class="parrafo parrafo--album">
+                    Quiero inmortalizar este maravilloso momento, guardando fotos y para ello tengo mi álbum
+                    compartido, ayudame subiendo tus mejores capturas! <br> <br>
+                    <a class="boton__cta section__button" href="https://photos.app.goo.gl/4jyvPtwaKagP9Cy19">Compartir
+                        fotos</a>
+                    <!-- Ó podés compartir tus fotos y videos de la fiesta en instagram y etiquétame -->
+                </h3>
+
+
+
+            </div>
+
+
+        </section>
+
+
+        <section class="confirmacion contenedor block glow" data-aos="fade-up">
+            <div class="confirmacion__container">
+                <h4 class="parrafo parrafo--confirmacion" data-aos="fade-right">
+                    Recordá que tenes hasta el día 16 de Mayo del 2026 para confirmar tu presencia <br>
+                </h4>
+                <div id="asistencia">
+                    <div class="asistencia__radios">
+                        <label class="asistencia__radio">
+                            <input class="assistencia__label" type="radio" name="attendanceOption" value="SI ASISTIRÉ">
+                            SI ASISTIRÉ
+                        </label>
+                        <label class="asistencia__radio">
+                            <input class="assistencia__label" type="radio" name="attendanceOption" value="NO ASISTIRÉ">
+                            NO ASISTIRÉ
+                        </label>
+                    </div>
+                    <br>
+                    <div class="asistencia__datos">
+                        <label class="asistencia__label" for="userFullName">Nombre y Apellido:</label>
+                        <input class="input__text" type="text" id="userFullName" placeholder="Tu nombre y apellido"
+                            required>
+                        <br>
+
+                        <label class="asistencia__label asistencia__label2" for="customMessage">Mensaje opcional</label>
+                        <textarea class="input__text input__text2" id="customMessage"
+                            placeholder="Mensaje opcional"></textarea>
+                        <br>
+                        <button class="boton__cta boton__cta3" id="btnConfirmacion1">
+                            <img class="whatsapp__icon" src="assets/vectores/whatsapp_redondo.svg" alt="">Confirmar
+                            presencia</button>
+                        <button class="boton__cta boton__cta3" id="btnConfirmacion2">
+                            <img class="whatsapp__icon" src="assets/vectores/whatsapp_redondo.svg" alt="">Confirmar
+                            presencia</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="frase">
+        <h4 class="frase__text1">"Los espero!!!"</h4>
+    </section>
+
+
+    <footer class="footer__final1">
+        <div class="footer__inner1">
+            <div class="footer__brand1">
+                <p class="footer__text1">
+                    Página creada por <strong>Luno Digitales</strong>
+                    para los 15 años de <strong>Nahi</strong>.<br>
+                    Todos los derechos reservados. <br>Visítano en:
+                </p>
+
+            </div>
+
+
+            <a class="footer__site1" href="https://www.luno.net.ar" target="_blank" rel="noopener">www.luno.net.ar</a>
+            <div class="footer__social3">
+                <p class="footer__follow1">Síguenos en nuestras redes</p>
+                <a class="icon-link1"
+                    href="https://www.instagram.com/lunodigitales?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    aria-label="Instagram de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"
+                            fill="none" />
+                        <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5" fill="none" />
+                        <circle cx="18.2" cy="5.8" r="0.7" fill="currentColor" />
+                    </svg>
+                </a>
+                <a class="icon-link1" href="https://www.facebook.com/profile.php?id=61581720891655" target="_blank"
+                    rel="noopener" aria-label="Facebook de Luno Digitales">
+                    <svg width="34" height="34" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true">
+                        <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+    <style>
+        /* ///////////////// footer /////////////////////// */
+
+
+        .footer__final1 {
+            background: linear-gradient(180deg, #ffbce0 0%, #cdbd93 100%);
+            color: #414141;
+            padding: 1.5em 0;
+
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            font-size: 14px;
+            width: clamp(100px, 100%, 1800px);
+            text-align: center;
+            margin: 0 auto 0;
+        }
+
+        .footer__inner1 {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+            align-items: center;
+            text-align: center;
+            padding: 0 1em;
+        }
+
+        .footer__text1 {
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        .footer__text1 strong {
+            color: #0b0b0b;
+            font-weight: 700;
+        }
+
+        .footer__site1 {
+            display: inline-block;
+            margin-top: 8px;
+            text-decoration: none;
+            color: #414141;
+            font-weight: 600;
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .footer__site1:hover {
+            text-decoration: underline;
+        }
+
+        .footer__social3 {
+            display: flex;
+            flex-direction: row;
+            gap: 15px;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 5px;
+        }
+
+        .footer__follow1 {
+            margin: 0;
+            font-size: 14px;
+            color: #414141;
+            font-weight: 500;
+        }
+
+        .footer__final1 .icon-link1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: #414141;
+            background: rgba(255, 255, 255, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .footer__final1 .icon-link1 svg {
+            width: 28px !important;
+            height: 28px !important;
+            display: block;
+            margin: 0;
+        }
+
+        .footer__final1 .icon-link1:hover {
+            transform: translateY(-3px);
+            background: rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+
+
+
+
+
+
+
+
+    <script src="js/script.js?v35"></script>
+</body>
+
+</html>

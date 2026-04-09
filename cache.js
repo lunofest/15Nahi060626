@@ -25,13 +25,13 @@ function cargarRecursos(recursos, version) {
 
 function forzarActualizacionCache() {
     var recursos = [
-        'estilos/normalize.css?v35',
-        'estilos/styles.css?v35',
-        'estilos/mediaQueries.css?v35',
-        'javascript/script.js?v35',
+        'estilos/normalize.css?v36',
+        'estilos/styles.css?v36',
+        'estilos/mediaQueries.css?v36',
+        'javascript/script.js?v36',
         // Add other URLs of your resources here
     ];
-    var version = 'v35'; // Use a static or manually managed version
+    var version = 'v36'; // Use a static or manually managed version
     cargarRecursos(recursos, version);
 }
 
